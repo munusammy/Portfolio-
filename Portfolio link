@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - S. Munuswamy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info, .education, .skills, .leadership, .languages {
+            padding: 10px;
+            border-left: 5px solid #007BFF;
+            background: #eef5ff;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "\2022";
+            color: #007BFF;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>S. MUNUSWAMY</h1>
+        <h3>Student</h3><div class="section contact-info">
+        <h2>Contact</h2>
+        <p>📞 8148428235</p>
+        <p>✉️ munuswamy437@gmail.com</p>
+    </div>
+
+    <div class="section about">
+        <h2>About</h2>
+        <p>Munuswamy is a curious and dedicated student with a passion for computer science...</p>
+    </div>
+
+    <div class="section education">
+        <h2>Education</h2>
+        <p><strong>University</strong><br>2023 - 2026<br>B.Sc (Computer Science)</p>
+    </div>
+
+    <div class="section skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Leadership & Organizational Skills</li>
+            <li>Active Listening & Collaboration</li>
+            <li>Technical Proficiency</li>
+            <li>Event Coordination</li>
+        </ul>
+    </div>
+
+    <div class="section leadership">
+        <h2>Leadership</h2>
+        <ul>
+            <li>Computer Science Department Cultural Secretary</li>
+            <li>System Incharge & Coordinator</li>
+        </ul>
+    </div>
+
+    <div class="section languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>English</li>
+            <li>Tamil</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
