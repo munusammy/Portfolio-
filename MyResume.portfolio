@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - S. Munuswamy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        h2, h3 {
+            color: #000;
+        }
+        h2 {
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-title {
+            font-weight: bold;
+            color: red;
+            font-size: 18px;
+        }
+        .social-media-title {
+            font-weight: bold;
+            color: #000;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .skills-list, .leadership-list {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: black;
+        }
+        .social-media {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .social-media img {
+            width: 24px;
+            height: 24px;
+        }
+        .progress-bar {
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-bar span {
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            padding-left: 10px;
+            color: #fff;
+            font-weight: bold;
+        }
+        .python { width: 90%; background-color: #4CAF50; }
+        .html { width: 85%; background-color: #2196F3; }
+        .javascript { width: 80%; background-color: #ff9800; }
+        .excel { width: 90%; background-color: #3f51b5; }
+        .communication { width: 90%; background-color: #9c27b0; }
+        .coding { width: 85%; background-color: #607d8b; }
+        .listening { width: 100%; background-color: #009688; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>S. MUNUSWAMY</h1>
+        <h3>STUDENT</h3><div class="section contact-info">
+        <p class="contact-title">Contact:</p>
+        <p>📞 8148428235</p>
+        <p>✉️ <a href="mailto:munuswamy437@gmail.com">munuswamy437@gmail.com</a></p>
+        
+        <p class="social-media-title">Social Media:</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/cute._.boy._.munu._.33?igsh=MTZ1cnk1NGR1a2swYw==" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+                Instagram</a>
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/munuswamy-s-bb5696326" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo">
+                LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Profile</h2>
+        <p>Munuswamy is a curious and dedicated student with a passion for computer science. Always eager to explore new technologies, thrives as a good learner, constantly seeking to develop skills and deepen knowledge in programming and technology-driven projects.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p><strong>University</strong></p>
+        <p>2023 - 2026</p>
+        <p>B.Sc (Computer Science)</p>
+    </div>
+
+    <div class="section">
+        <h2>Awards & Certifications</h2>
+        <ul>
+            <li>Code Debug</li>
+            <li>Communication English</li>
+            <li>Python Code</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Languages</h2>
+        <ul>
+            <li>English</li>
+            <li>Tamil</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Leadership & Organizational Skills:</strong> Successfully served as the Secretary of the department and re-elected as Computer Science Department Cultural Secretary.</li>
+            <li><strong>Active Listening & Collaboration:</strong> Strong listener, capable of understanding diverse perspectives and building meaningful relationships.</li>
+            <li><strong>Technical Proficiency:</strong> Well-versed in programming and problem-solving in software development.</li>
+            <li><strong>Event Coordination:</strong> Proven ability to organize departmental activities and events.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Leadership</h2>
+        <ul class="leadership-list">
+            <li><strong>Computer Science Department Cultural Secretary (Second Year):</strong> Organized and conducted programs.</li>
+            <li><strong>Sports Secretary:</strong> Contributed to social service initiatives and community development for university matches.</li>
+            <li><strong>Quick Learner:</strong> Adapts to new challenges and acquires skills efficiently to enhance team performance.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Special Talent</h2>
+        <div class="progress-bar"><span class="python">Python 90%</span></div>
+        <div class="progress-bar"><span class="html">HTML 85%</span></div>
+        <div class="progress-bar"><span class="javascript">JavaScript 80%</span></div>
+        <div class="progress-bar"><span class="excel">Excel 90%</span></div>
+        <div class="progress-bar"><span class="communication">English Communication 90%</span></div>
+        <div class="progress-bar"><span class="coding">Coding Knowledge 85%</span></div>
+        <div class="progress-bar"><span class="listening">Active Listening 100%</span></div>
+    </div>
+</div>
+
+</body>
+</html>
